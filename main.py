@@ -1,7 +1,6 @@
 import pygame
 from constants import *
-from circleshape import *
-from player import *
+from player import Player
 import os
 os.environ["SDL_VIDEODRIVER"]="x11"
 os.environ['SDL_AUDIODRIVER']='dsp'
